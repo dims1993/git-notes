@@ -2,7 +2,7 @@
 # Git no guarda automáticamente los cambios que haces en los archivos.
 # Hay que decirle qué archivos quieres preparar para guardar ("staging area").
 
-# git add → selecciona los archivos que quieres incluir en tu próximo "snapshot" del proyecto.
+git add → selecciona los archivos que quieres incluir en tu próximo "snapshot" del proyecto.
 
 # Añadir un archivo específico:
 git add script.py
@@ -12,6 +12,10 @@ git add .
 
 # Comprobar qué archivos están en el "staging area":
 git status
+
+# Subir todos los archivos html (notese que hay aveces especificar el directorio)
+git add *.html
+git add /js*.js
 
 
 # GIT COMMIT
@@ -27,4 +31,5 @@ git commit -m "Agrega función para calcular promedio"
 
 # Combina los comandos git add y git commit en una sola línea, pero solo para archivos que ya están siendo rastreados (tracked) por Git.
 git commit -am "mensaje"
+
 
