@@ -40,5 +40,7 @@ git log
 # Para verlo de manera resumida
 git log --oneline
 
+# Modificar tu último commit.
+git commit --amend -m "mensaje corregido"
 
 
