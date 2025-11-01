@@ -17,6 +17,8 @@ git status
 git add *.html
 git add /js*.js
 
+# Añade todos los archivos dentro de la carpeta css/ (y sus subcarpetas) al staging area de Git.
+git add css/
 
 # GIT COMMIT
 # Cuando haces un commit, estás guardando un punto en el tiempo del estado de tu proyecto.
@@ -31,5 +33,6 @@ git commit -m "Agrega función para calcular promedio"
 
 # Combina los comandos git add y git commit en una sola línea, pero solo para archivos que ya están siendo rastreados (tracked) por Git.
 git commit -am "mensaje"
+
 
 
