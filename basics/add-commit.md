@@ -25,5 +25,6 @@ git status
 # Ejemplo:
 git commit -m "Agrega función para calcular promedio"
 
-
+# Combina los comandos git add y git commit en una sola línea, pero solo para archivos que ya están siendo rastreados (tracked) por Git.
+git commit -am "mensaje"
 
