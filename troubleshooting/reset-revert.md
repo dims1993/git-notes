@@ -15,3 +15,6 @@ git reset --soft HEAD^
 # --mixed (por defecto): deshace el commit y saca los archivos del staging area, pero los deja modificados en tu carpeta.
 
 # --hard: ⚠️ deshace todo, borrando los cambios del commit y del directorio (no se puede recuperar fácilmente).
+
+git reflog 
+# muestra un historial de todas las acciones recientes que han movido el puntero de HEAD, incluso las que ya no aparecen en git log.
