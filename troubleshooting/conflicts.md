@@ -3,17 +3,15 @@
 
 .gitignore --> Es un archivo especial que le dice a Git qué archivos o carpetas debe ignorar, es decir, no rastrear ni incluir en los commits.
 
-🔹 Ignorar una carpeta completa
+# Ignorar una carpeta completa
 carpeta/
 
-🔹 Ignorar todos los archivos de cierto tipo
+# Ignorar todos los archivos de cierto tipo
 *.log
 *.tmp
 *.pyc
 
-🔹 No ignorar un archivo dentro de una carpeta ignorada
-
-Usa ! (exclamación):
-
+# No ignorar un archivo dentro de una carpeta ignorada: Usa ! (exclamación):
 /data/*
 !/data/README.md
+
