@@ -7,3 +7,11 @@ git reset
 # Para ver los cambios que aún no has confirmado en Git. Te deja ver qué líneas han cambiado, agregado o eliminado antes de hacer git add o git commit.
 git diff
 (Si estamos en VS Code es más visual utilizar source control)
+
+
+git reset --soft HEAD^
+# --soft: deshace el commit pero mantiene todos los cambios en el staging area (git add sigue activo).
+
+# --mixed (por defecto): deshace el commit y saca los archivos del staging area, pero los deja modificados en tu carpeta.
+
+# --hard: ⚠️ deshace todo, borrando los cambios del commit y del directorio (no se puede recuperar fácilmente).
