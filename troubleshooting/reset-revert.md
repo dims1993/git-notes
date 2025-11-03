@@ -23,3 +23,5 @@ git mv
 # se usa para mover o renombrar archivos o carpetas dentro de tu repositorio Git, y registrar automáticamente ese cambio para el próximo commit.
 # Ejemplo: git mv notas.md apuntes.md
 
+git rm 
+# elimina el archivo tanto del disco (tu carpeta) como del índice de Git (la zona de preparación o staging area). Luego, debes hacer un git commit para guardar ese cambio en el historial.
