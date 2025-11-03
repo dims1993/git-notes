@@ -18,3 +18,8 @@ git reset --soft HEAD^
 
 git reflog 
 # muestra un historial de todas las acciones recientes que han movido el puntero de HEAD, incluso las que ya no aparecen en git log.
+
+git mv 
+# se usa para mover o renombrar archivos o carpetas dentro de tu repositorio Git, y registrar automáticamente ese cambio para el próximo commit.
+# Ejemplo: git mv notas.md apuntes.md
+
