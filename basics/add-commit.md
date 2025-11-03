@@ -1,12 +1,12 @@
 # 🗒️ Comandos Fundamentales de Git: `add` y `commit`
 
-## ➕ `git add`
+## `git add`
 
 Git no guarda automáticamente los cambios que haces. Hay que decirle qué archivos quieres preparar para guardar en el **área de preparación** (*staging area*).
 
 > **Propósito:** Selecciona los archivos que quieres incluir en tu próximo "snapshot" del proyecto.
 
-### 📝 Sintaxis Común
+### Sintaxis Común
 
 * **Añadir un archivo específico:**
     ```bash
@@ -27,12 +27,12 @@ Git no guarda automáticamente los cambios que haces. Hay que decirle qué archi
     git add css/
     ```
 
-### 🔎 Comprobar Staging Area
+### Comprobar Staging Area
 Para ver qué archivos están preparados o modificados:
 ```bash
 git status
   ```
-## 💾 `git commit`
+## `git commit`
 
 Cuando haces un *commit*, estás guardando un **punto en el tiempo** del estado de tu proyecto.
 
@@ -42,7 +42,7 @@ Cuando haces un *commit*, estás guardando un **punto en el tiempo** del estado 
     * Los cambios añadidos con `git add`.
     * Un **mensaje descriptivo** que explica qué hiciste (se añade con `-m "mensaje"`).
 
-### ✍️ Sintaxis y Ejemplos
+### Sintaxis y Ejemplos
 
 * **Crear un nuevo commit:**
     ```bash
@@ -63,7 +63,7 @@ Cuando haces un *commit*, estás guardando un **punto en el tiempo** del estado 
 
 ---
 
-## 📜 Historial de Commits (`git log`)
+## Historial de Commits (`git log`)
 
 Utiliza este comando para ver el historial de commits en Git.
 
@@ -75,4 +75,5 @@ Utiliza este comando para ver el historial de commits en Git.
     ```bash
     git log --oneline
     ```
+
 
