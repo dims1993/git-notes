@@ -42,3 +42,29 @@ Para ver toda la información de un tag, incluyendo su mensaje, autor y el commi
 ```bash
 git show v1.0.0
 ```
+
+## ⏪ Tags en Commits Anteriores
+
+Se pueden crear y visualizar etiquetas para **cualquier *commit*** de tu historial. Esto es esencial para etiquetar versiones estables que se hayan lanzado hace tiempo.
+
+---
+
+### 1. Obtener el Hash del Commit
+
+Para referenciar un *commit* anterior, necesitas su identificador único, conocido como **hash** (los primeros 7 caracteres suelen ser suficientes). Puedes usar `git log` o `git log --oneline` para encontrarlo.
+
+* **Ejemplo de Hash:** `a4b1c2d`
+
+### 2. Mostrar la Información del Commit
+
+Puedes usar el comando `git show` para ver los detalles de ese *commit* específico antes de etiquetarlo:
+
+```bash
+git show a4b1c2d
+```
+### 3. Agregar el tag al commit historico
+
+```bash
+git tag -a v1.0.0 a4b1c2d -m "Versión estable con corrección de errores críticos"
+```
+
