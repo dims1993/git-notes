@@ -1,4 +1,4 @@
-# 💥 Gestión de Conflictos de Fusión (`Merge Conflicts`)
+# Gestión de Conflictos de Fusión (`Merge Conflicts`)
 
 Un **conflicto de fusión** (*merge conflict*) ocurre cuando Git no puede resolver automáticamente las diferencias entre dos ramas porque ambas modificaron las **mismas líneas** en el **mismo archivo**, o una rama eliminó un archivo que la otra modificó.
 
@@ -6,7 +6,7 @@ Cuando esto pasa, Git **detiene el proceso de fusión** y te pide que resuelvas 
 
 ---
 
-## 🛑 Detección y Estado del Conflicto
+## Detección y Estado del Conflicto
 
 ### 1. Inicio de la Fusión
 
@@ -34,7 +34,7 @@ Git inserta marcadores especiales en los archivos afectados para mostrar dónde 
 >>>>>>> rama-con-conflicto: Marca el final de los cambios de la rama que intentas fusionar.
 ```
 
-## ✅ Pasos para Resolver Conflictos
+## Pasos para Resolver Conflictos
 La resolución es un proceso de tres pasos:
 
 ### Paso 1: Editar el Archivo
@@ -58,3 +58,4 @@ Por lo que usamos el comando de dos pasos en uno.
 ```bash
 git branch -d rama-conflicto
 ```
+
