@@ -1,6 +1,3 @@
-# sirve para listar, crear o eliminar ramas dentro de un repositorio de Git. Las ramas permiten trabajar en nuevas funciones o versiones sin afectar el código principal
-git branch
-
 # 🚀 Fusión Fast-Forward (Avance Rápido) en Git
 
 El *Fast-Forward* (Avance Rápido) es el método de fusión más sencillo en Git. Ocurre cuando no hay **conflictos** ni **nuevos commits** en la rama principal (destino) desde que se creó la rama de trabajo.
@@ -60,3 +57,4 @@ El parámetro `-f` o `--ff` (junto con `--no-ff`) se usa en el comando `git merg
 | :--- | :--- |
 | `git merge --no-ff nueva-funcionalidad` | **Fuerza la creación de un *commit* de fusión** (*merge commit*), incluso si se puede hacer *Fast-Forward*. Esto es útil para mantener un registro explícito de dónde y cuándo ocurrió la fusión. |
 | `git merge --ff-only nueva-funcionalidad` | **Solo permite la fusión si es posible hacer *Fast-Forward***. Si hay historial divergente (*commits* nuevos en la rama destino), el comando fallará y no fusionará. |
+
